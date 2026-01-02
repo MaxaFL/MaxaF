@@ -2,50 +2,77 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>MaxaF</title>
+  <title>MaxaF – Student Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       font-family: Arial, sans-serif;
-      max-width: 700px;
+      max-width: 900px;
       margin: 40px auto;
       padding: 20px;
       line-height: 1.6;
-      background: #111;
-      color: #f5f5f5;
+      background: #f5f5f5;
+      color: #111;
     }
-    h1, h2 {
-      color: #ffffff;
+    header {
+      text-align: center;
+      padding-bottom: 20px;
+    }
+    header h1 {
+      margin: 0;
+      color: #222;
+    }
+    header p {
+      font-style: italic;
+      color: #555;
+    }
+    section {
+      margin-top: 40px;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #333;
+      border-bottom: 2px solid #4da3ff;
+      padding-bottom: 5px;
     }
     a {
       color: #4da3ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
 
-<h1>Welcome</h1>
+<header>
+  <h1>MaxaF</h1>
+  <p>Student | Learner | Future Innovator</p>
+</header>
 
-<p>Hello, my name is <strong>MaxaF</strong>.</p>
+<section id="about">
+  <h2>About Me</h2>
+  <p>I am a student focused on learning, growth, and building a better future through education. My interests include:</p>
+  <ul>
+    <li>Education & personal development</li>
+    <li>Language learning</li>
+    <li>Technology & digital skills</li>
+  </ul>
+</section>
 
-<p>
-I am a student focused on learning, growth, and building a better future through education.
-</p>
+<section id="notes">
+  <h2>Notes & Blog</h2>
+  <p>This website will be used to share study notes, personal reflections, and useful resources for learning. More content will be added soon!</p>
+</section>
 
-<h2>About Me</h2>
-<p>
-I am interested in education, language learning, and technology.
-</p>
-
-<h2>Notes & Blog</h2>
-<p>
-This website will be used to share study notes and personal reflections.
-</p>
-
-<h2>Contact</h2>
-<p>
-Email: your-email@example.com
-</p>
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+</section>
 
 </body>
 </html>
