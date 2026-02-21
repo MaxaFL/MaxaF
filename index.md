@@ -5,7 +5,7 @@ title: Home
 
 # Welcome
 
-Hello, my name is **[Your Name]**.
+Hello, my name is **Fasil Lichano Maxa**.
 
 I am a student focused on learning, growth, and building a better future through education.
 
@@ -26,4 +26,4 @@ This website will be used to share:
 ## Contact
 
 You can reach me via:
-- Email: your-email@example.com
+- Email: fasillucianomazza@gmail.com
